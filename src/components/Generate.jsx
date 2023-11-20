@@ -1,7 +1,13 @@
 import React from "react";
+import RefreshButton from "./RefreshButton";
 
 function Generate() {
-  return <h1>-------------</h1>;
+  return (
+    <div className="seperator">
+      <hr className="solid"></hr>
+      <RefreshButton />
+    </div>
+  );
 }
 
 export default Generate;

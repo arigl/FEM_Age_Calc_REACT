@@ -5,11 +5,11 @@ import DateText from "./components/DateText";
 import Generate from "./components/Generate";
 
 function App() {
-  const [dates, setDates] = React.useState(["24", "3", "5"]);
+  const [dates, setDates] = React.useState(["--", "--", "--"]);
 
   return (
     <main>
-      <DateFields />
+      <DateFields year={dates[0]} month={dates[1]} day={dates[2]} />
       <Generate />
       <DateText year={dates[0]} month={dates[1]} day={dates[2]} />
     </main>

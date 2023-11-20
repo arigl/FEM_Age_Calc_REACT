@@ -3,7 +3,7 @@ import React from "react";
 function DateText(props) {
   console.log(props);
   return (
-    <div>
+    <div className="DateText">
       <h1>
         <span className="bigNum">{props.year}</span> years
       </h1>
