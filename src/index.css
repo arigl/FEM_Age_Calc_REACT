@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: hsl(0, 0%, 94%);
+}
+
+main {
+  background-color: white;
+  border-radius: 10px 10px 200px 10px;
+  width: 50vw;
+  padding: 20px;
+  font-family: "Poppins";
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.2rem;
+}
+
+input {
+  border: 1px solid hsl(0, 0%, 56%);
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 3px solid hsl(259, 100%, 65%);
+  border-radius: 5px;
+}
+
+.fields {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.bigNum {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 4rem;
+  color: hsl(259, 100%, 65%);
+}
