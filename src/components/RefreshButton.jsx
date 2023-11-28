@@ -1,9 +1,15 @@
 import React from "react";
 import IconArrow from "../assets/images/icon-arrow.svg";
+import { DateTime } from "luxon";
 
-function RefreshButton() {
+function dateCalc(props) {
+  const userDate = DateTime.local(2020, 10, 12);
+  console.log(userDate);
+}
+
+function RefreshButton(props) {
   return (
-    <button>
+    <button className="refresh" onClick={dateCalc(props)}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="46"

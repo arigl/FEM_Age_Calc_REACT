@@ -90,3 +90,10 @@ button {
   margin-right: 10px; /* Optional: Add some space between the <hr> and RefreshButton */
   opacity: 0.3;
 }
+
+.refresh {
+  background-color: hsl(259, 100%, 65%);
+}
+.refresh:hover {
+  background-color: black;
+}
